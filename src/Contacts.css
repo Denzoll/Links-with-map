@@ -1,0 +1,45 @@
+.Contacts {
+  color: white;
+  padding: 0 35px;
+  align-items: center;
+  height: 450px;
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  width: 95%;
+  
+}
+.text {
+  flex-wrap: wrap;
+}
+.btnDiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 35px;
+  align-items: center;
+
+  margin-top: 10px;
+
+  justify-content: center;
+}
+.btn {
+  cursor: pointer;
+  padding: 15px 20px;
+  border: 1px solid #fff;
+  font-size: 20px;
+  color: #333;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.btn:active {
+  background: #545b62;
+  border-color: #4e555b;
+  color: #fff;
+}
+.btn:active:focus {
+  box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 50%);
+}
+.name {
+  width: 50%;
+  
+}
